@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:text="@string/titulo"
+        android:textSize="@dimen/letraBase"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/nombre"
+            android:textSize="@dimen/letraItem"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_weight="1"
+            android:textSize="@dimen/letraItem"
+            android:inputType="text"
+            android:id="@+id/artistaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/letraItem"
+            android:text="@string/fecha"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        //acá va calendario
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@dimen/letraItem"
+            android:text="@string/genero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        //acá va spinner
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/valor"
+            android:textSize="@dimen/letraItem"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_weight="1"
+            android:textSize="@dimen/letraItem"
+            android:inputType="text"
+            android:id="@+id/valorTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@dimen/letraItem"
+            android:text="@string/nota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        //acá va spinner
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:text="Registrar"
+            android:id="@+id/registrarBtn"
+            android:textSize="@dimen/letraBase"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/tamanioImagen"
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:src="@drawable/concierto">
+
+    </ImageView>
+
+</LinearLayout>

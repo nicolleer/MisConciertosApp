@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MisConciertosApp</string>
+    <string name="nombre">Nombre Artista</string>
+    <string name="fecha">Fecha de Evento</string>
+    <string name="genero">Género Musical</string>
+    <string name="valor">Valor Entrada</string>
+    <string name="titulo">Ingrese datos de Concierto</string>
+    <string name="nota">Calificación</string>
+</resources>
