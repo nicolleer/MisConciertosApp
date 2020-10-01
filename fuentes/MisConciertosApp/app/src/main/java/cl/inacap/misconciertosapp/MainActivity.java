@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         this.registrarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+
             }
         });
 
